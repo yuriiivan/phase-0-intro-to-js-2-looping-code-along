@@ -1,7 +1,8 @@
 const writeCards = (array,event) => {
   const birthdayMessages = [];
-  for(let i = 0; i < array.length; i++){
-    birthdayMessages.push(`Thank you, ${array[i]}, for the wonderful ${event} gift!`);
+  //for(let i = 0; i < array.length; i++){
+    for(let name of array){
+    birthdayMessages.push(`Thank you, ${name}, for the wonderful ${event} gift!`);
   }
   return birthdayMessages;
 }
