@@ -5,3 +5,10 @@ const writeCards = (array,event) => {
   }
   return birthdayMessages;
 }
+
+const countDown = (num) => {
+  while(num >= 0){
+    console.log(num);
+    num--;
+  }
+}
